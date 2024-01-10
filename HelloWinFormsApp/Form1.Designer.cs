@@ -31,15 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
             button10 = new Button();
-            button7 = new Button();
             button6 = new Button();
+            button8 = new Button();
+            button7 = new Button();
             button5 = new Button();
+            button9 = new Button();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
-            pictureBox1 = new PictureBox();
-            button9 = new Button();
-            button8 = new Button();
             pictureBox10 = new PictureBox();
             pictureBox9 = new PictureBox();
             pictureBox8 = new PictureBox();
@@ -49,11 +48,9 @@
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
-            panel2 = new Panel();
             button1 = new Button();
             pictureBox11 = new PictureBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
@@ -78,7 +75,6 @@
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
-            panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
@@ -97,29 +93,41 @@
             button10.TabIndex = 19;
             button10.UseVisualStyleBackColor = true;
             // 
-            // button7
-            // 
-            button7.BackgroundImageLayout = ImageLayout.Zoom;
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Image = (Image)resources.GetObject("button7.Image");
-            button7.Location = new Point(3, 328);
-            button7.Name = "button7";
-            button7.Size = new Size(100, 64);
-            button7.TabIndex = 16;
-            button7.UseVisualStyleBackColor = true;
-            // 
             // button6
             // 
             button6.BackgroundImageLayout = ImageLayout.Zoom;
             button6.FlatAppearance.BorderSize = 0;
             button6.FlatStyle = FlatStyle.Flat;
             button6.Image = (Image)resources.GetObject("button6.Image");
-            button6.Location = new Point(3, 398);
+            button6.Location = new Point(3, 350);
             button6.Name = "button6";
             button6.Size = new Size(100, 64);
             button6.TabIndex = 15;
             button6.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            button8.BackgroundImageLayout = ImageLayout.Zoom;
+            button8.FlatAppearance.BorderSize = 0;
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Image = (Image)resources.GetObject("button8.Image");
+            button8.Location = new Point(3, 471);
+            button8.Name = "button8";
+            button8.Size = new Size(100, 64);
+            button8.TabIndex = 17;
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            button7.BackgroundImageLayout = ImageLayout.Zoom;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Image = (Image)resources.GetObject("button7.Image");
+            button7.Location = new Point(3, 280);
+            button7.Name = "button7";
+            button7.Size = new Size(100, 64);
+            button7.TabIndex = 16;
+            button7.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -127,57 +135,11 @@
             button5.FlatAppearance.BorderSize = 0;
             button5.FlatStyle = FlatStyle.Flat;
             button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.Location = new Point(3, 258);
+            button5.Location = new Point(3, 210);
             button5.Name = "button5";
             button5.Size = new Size(100, 64);
             button5.TabIndex = 14;
             button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.BackgroundImageLayout = ImageLayout.Zoom;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Image = (Image)resources.GetObject("button4.Image");
-            button4.Location = new Point(3, 188);
-            button4.Name = "button4";
-            button4.Size = new Size(100, 64);
-            button4.TabIndex = 13;
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.BackgroundImageLayout = ImageLayout.Zoom;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Image = (Image)resources.GetObject("button3.Image");
-            button3.Location = new Point(3, 48);
-            button3.Name = "button3";
-            button3.Size = new Size(100, 64);
-            button3.TabIndex = 12;
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.BackgroundImageLayout = ImageLayout.Zoom;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.Location = new Point(3, 118);
-            button2.Name = "button2";
-            button2.Size = new Size(100, 64);
-            button2.TabIndex = 3;
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(78, 39);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
             // 
             // button9
             // 
@@ -191,17 +153,41 @@
             button9.TabIndex = 18;
             button9.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // button4
             // 
-            button8.BackgroundImageLayout = ImageLayout.Zoom;
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Image = (Image)resources.GetObject("button8.Image");
-            button8.Location = new Point(3, 471);
-            button8.Name = "button8";
-            button8.Size = new Size(100, 64);
-            button8.TabIndex = 17;
-            button8.UseVisualStyleBackColor = true;
+            button4.BackgroundImageLayout = ImageLayout.Zoom;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Image = (Image)resources.GetObject("button4.Image");
+            button4.Location = new Point(3, 140);
+            button4.Name = "button4";
+            button4.Size = new Size(100, 64);
+            button4.TabIndex = 13;
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackgroundImageLayout = ImageLayout.Zoom;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.Location = new Point(3, 0);
+            button3.Name = "button3";
+            button3.Size = new Size(100, 64);
+            button3.TabIndex = 12;
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.BackgroundImageLayout = ImageLayout.Zoom;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.Location = new Point(3, 70);
+            button2.Name = "button2";
+            button2.Size = new Size(100, 64);
+            button2.TabIndex = 3;
+            button2.UseVisualStyleBackColor = true;
             // 
             // pictureBox10
             // 
@@ -293,16 +279,6 @@
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
-            // panel2
-            // 
-            panel2.BackColor = Color.FromArgb(40, 58, 87);
-            panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(104, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(1160, 51);
-            panel2.TabIndex = 1;
-            panel2.Paint += panel2_Paint;
-            // 
             // button1
             // 
             button1.BackgroundImageLayout = ImageLayout.Zoom;
@@ -341,7 +317,6 @@
             Controls.Add(pictureBox7);
             Controls.Add(pictureBox6);
             Controls.Add(button1);
-            Controls.Add(panel2);
             Controls.Add(panel1);
             MinimumSize = new Size(1280, 720);
             Name = "Form1";
@@ -349,7 +324,6 @@
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
@@ -366,8 +340,6 @@
         #endregion
 
         private Panel panel1;
-        private Panel panel2;
-        private PictureBox pictureBox1;
         private Button button1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox10;
