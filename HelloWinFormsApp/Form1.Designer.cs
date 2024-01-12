@@ -78,7 +78,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(104, 681);
+            panel1.Size = new Size(104, 720);
             panel1.TabIndex = 0;
             // 
             // button10
@@ -87,7 +87,7 @@
             button10.FlatAppearance.BorderSize = 0;
             button10.FlatStyle = FlatStyle.Flat;
             button10.Image = (Image)resources.GetObject("button10.Image");
-            button10.Location = new Point(3, 609);
+            button10.Location = new Point(1, 643);
             button10.Name = "button10";
             button10.Size = new Size(100, 64);
             button10.TabIndex = 19;
@@ -111,7 +111,7 @@
             button8.FlatAppearance.BorderSize = 0;
             button8.FlatStyle = FlatStyle.Flat;
             button8.Image = (Image)resources.GetObject("button8.Image");
-            button8.Location = new Point(3, 471);
+            button8.Location = new Point(1, 495);
             button8.Name = "button8";
             button8.Size = new Size(100, 64);
             button8.TabIndex = 17;
@@ -147,7 +147,7 @@
             button9.FlatAppearance.BorderSize = 0;
             button9.FlatStyle = FlatStyle.Flat;
             button9.Image = (Image)resources.GetObject("button9.Image");
-            button9.Location = new Point(3, 540);
+            button9.Location = new Point(1, 569);
             button9.Name = "button9";
             button9.Size = new Size(100, 64);
             button9.TabIndex = 18;
@@ -305,7 +305,7 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(74, 96, 134);
-            ClientSize = new Size(1264, 681);
+            ClientSize = new Size(1280, 720);
             Controls.Add(pictureBox11);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox10);
@@ -321,7 +321,7 @@
             MinimumSize = new Size(1280, 720);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "An Dashboard application on Desktop | .NET WinForms | C#";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
